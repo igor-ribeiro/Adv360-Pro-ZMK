@@ -1,35 +1,46 @@
+macro_cedilla: macro_cedilla_test{
+wait-time = <1>;
+compatible = "zmk,behavior-macro";
+label = "macro_cedilla";
+#binding-cells = <0>;
+bindings = <&kp RALT>, <&kp LT>;
+};
 macro_cedilla: macro_cedilla{
 compatible = "zmk,behavior-macro";
 label = "macro_cedilla";
 #binding-cells = <0>;
-bindings = <&kp RA(LESS_THAN)>;
+bindings = <&kp RA(LT)>;
 };
 macro_quotes: macro_quotes{
-wait-ms = <10>;
+wait-ms = <5>;
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
 #binding-cells = <0>;
 bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
 };
 macro_dquotes: macro_dquotes{
+wait-ms = <5>;
 compatible = "zmk,behavior-macro";
 label = "macro_dquotes";
 #binding-cells = <0>;
 bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
 };
 macro_braces: macro_braces{
+wait-ms = <5>;
 compatible = "zmk,behavior-macro";
 label = "macro_braces";
 #binding-cells = <0>;
 bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
 };
 macro_parens: macro_parens{
+wait-ms = <5>;
 compatible = "zmk,behavior-macro";
 label = "macro_parens";
 #binding-cells = <0>;
 bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>;
 };
 macro_brackets: macro_brackets{
+wait-ms = <5>;
 compatible = "zmk,behavior-macro";
 label = "macro_brackets";
 #binding-cells = <0>;
