@@ -1,7 +1,7 @@
-macro_cedilla: macro_cedilla_test{
-wait-time = <1>;
+macro_cedilla2: macro_cedilla2{
+wait-ms = <1>;
 compatible = "zmk,behavior-macro";
-label = "macro_cedilla";
+label = "macro_cedilla2";
 #binding-cells = <0>;
 bindings = <&kp RALT>, <&kp LT>;
 };
