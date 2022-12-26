@@ -1,16 +1,3 @@
-macro_cedilla2: macro_cedilla2{
-wait-ms = <1>;
-compatible = "zmk,behavior-macro";
-label = "macro_cedilla2";
-#binding-cells = <0>;
-bindings = <&kp RALT>, <&kp LT>;
-};
-macro_cedilla: macro_cedilla{
-compatible = "zmk,behavior-macro";
-label = "macro_cedilla";
-#binding-cells = <0>;
-bindings = <&kp RA(LT)>;
-};
 macro_quotes: macro_quotes{
 wait-ms = <5>;
 compatible = "zmk,behavior-macro";
@@ -45,6 +32,13 @@ compatible = "zmk,behavior-macro";
 label = "macro_brackets";
 #binding-cells = <0>;
 bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
+};
+macro_angle: macro_angle{
+wait-ms = <5>;
+compatible = "zmk,behavior-macro";
+label = "macro_angle";
+#binding-cells = <0>;
+bindings = <&kp LESS_THAN>, <&kp GREATER_THAN>, <&kp LEFT>;
 };
 macro_kinesis: macro_kinesis{
 compatible = "zmk,behavior-macro";
