@@ -5,6 +5,7 @@ label = "macro_cedilla";
 bindings = <&kp RA(LESS_THAN)>;
 };
 macro_quotes: macro_quotes{
+wait-ms = <10>;
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
 #binding-cells = <0>;
