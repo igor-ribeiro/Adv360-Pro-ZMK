@@ -1,5 +1,7 @@
 # ADV360-PRO-ZMK
 
+https://kinesiscorporation.github.io/Adv360-Pro-GUI/
+
 ## To build Firmware in GitHub Actions
 
 ### Setup
